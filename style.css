@@ -1,0 +1,61 @@
+* {
+    color: grey;
+    font-size: 1.1rem;
+
+    font-weight: 400;
+
+    font-family: "Roboto", sans-serif;
+
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    outline: none;
+
+
+    border: solid;
+
+}
+
+.button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+    transition: all .3s ease-in;
+}
+.button:hover {
+    background-color: aliceblue;
+    color: #2e2e2e;
+}
+
+
+.navbar {
+    /* background-color: ; */
+    padding: 16px 20px;
+}
+
+.navbar__nav {
+
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__nav__icon {
+    width: 36px;
+}
+
+
+.navbar__nav__list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.navbar__nav__list li {
+    color: blue;
+}
