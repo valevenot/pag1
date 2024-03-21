@@ -15,6 +15,7 @@
     margin: 0;
 
     outline: none;
+    box-sizing: border-box;
 
 
 
@@ -73,6 +74,8 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+
+    overflow: hidden;
 }
 
 .jumbotron img {
